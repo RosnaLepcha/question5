@@ -1,0 +1,33 @@
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Table header styling */
+th {
+    background-color: #af4f4c;
+    color: rgb(243, 239, 239);
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table cell styling */
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #c7a0a0;
+}
+
+/* Table row hover effect */
+tr:hover {
+    background-color: #6da77e;
+}
+
+/* Styling for the table container */
+.table-container {
+    width: 90%;
+    overflow-x: auto;
+    margin: 20px auto;
+}
